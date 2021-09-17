@@ -46,7 +46,7 @@
 
 <script>
     // Socket Server
-    var conn = new WebSocket('ws://localhost:8080');
+    var conn = new WebSocket('ws://localhost:6060');
     conn.onopen = function(e) {
         console.log("Connection established!");
     };
